@@ -1,0 +1,6 @@
+{
+  "name": "FlipLess",
+  "description": "Foundation architecture for a Flutter Android application called FlipLess to help students practice physical textbook questions without constantly flipping back and forth to answer keys.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

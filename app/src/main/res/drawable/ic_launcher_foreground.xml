@@ -1,0 +1,104 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Open booklet back drop (Royal brand blue) -->
+    <path
+        android:fillColor="#5b8cff"
+        android:pathData="M26,30 Q44,22 54,30 L54,78 Q44,70 26,78 Z" />
+    <path
+        android:fillColor="#3b6ade"
+        android:pathData="M54,30 Q64,22 82,30 L82,78 Q64,70 54,78 Z" />
+
+    <!-- Pure white homework sheet/question sheet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,22 L62,22 L72,32 L72,76 C72,78 70,80 68,80 L38,80 C36,80 34,78 34,76 Z" />
+
+    <!-- Rounded corner fold with subtle gray shadow -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M62,22 L62,32 L72,32 Z" />
+
+    <!-- Mock question list lines (Slate Colors) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M40,34 L66,34" />
+
+    <!-- MCQ options A, B, C, D -->
+    <!-- Option A Option Circle and Text Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1.5"
+        android:pathData="M39,43 A2.5,2.5 0 1,0 44,43 A2.5,2.5 0 1,0 39,43" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M48,43 L62,43" />
+
+    <!-- Option B Option Circle and Text Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1.5"
+        android:pathData="M39,51 A2.5,2.5 0 1,0 44,51 A2.5,2.5 0 1,0 39,51" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M48,51 L58,51" />
+
+    <!-- Option C (Highlighted correct choice: circled in success green) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2"
+        android:pathData="M38.5,59 A3,3 0 1,0 44.5,59 A3,3 0 1,0 38.5,59" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M48,59 L64,59" />
+
+    <!-- Option D Option Circle and Text Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1.5"
+        android:pathData="M39,67 A2.5,2.5 0 1,0 44,67 A2.5,2.5 0 1,0 39,67" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M48,67 L60,67" />
+
+    <!-- Checkmark shadow for modern drop-shadow offset -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E293B"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,58 L63,67 L81,45" />
+
+    <!-- Solid beautiful vibrant Success Green checkmark -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#22C55E"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,58 L63,67 L81,45" />
+
+</vector>
